@@ -6,7 +6,7 @@ Simple WordPress Docker setup using MariaDB with import/export SQL scripts for J
 
 Requires Docker
 
-Run `./init.sh` to automatically edit `config.sh` to create unique slug for project. This only needs to be done once.
+Run `./init.sh` to automatically edit `config.sh` to create unique slug for project. This only needs to be run once.
 
 Run `./run.sh` to start the WordPress and MariaDB container named using your unique slug.
 
