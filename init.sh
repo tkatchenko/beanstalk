@@ -8,6 +8,4 @@ do
 done
   echo "Updating config..."
   sed -i '' "s/project-name/$slug/" config.sh
-  echo "Updating theme..."
-  sed -i '' "s/Template/$slug/" wordpress/wp-content/themes/template/style.css
-  mv wordpress/wp-content/themes/template wordpress/wp-content/themes/$slug
+  echo "Done."
