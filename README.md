@@ -10,6 +10,8 @@ Run `./init.sh` to automatically edit `config.sh` to create unique slug for proj
 
 Run `./run.sh` to start the WordPress and MariaDB container named using your unique slug.
 
+WordPress will be located in the `wordpress` directory.
+
 WordPress will be running at [http://localhost/](http://localhost/).
 
 The default WordPress user/password is `admin`.
