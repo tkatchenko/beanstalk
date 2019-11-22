@@ -1,0 +1,14 @@
+wordpress:
+  build: .
+  links:
+    - db:mysql
+  ports:
+    - 80:80
+  volumes:
+    - ./wordpress/:/var/www/html/
+    - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+
+db:
+  image: mariadb
+  environment:
+    MYSQL_ROOT_PASSWORD: wordpress
